@@ -12,6 +12,6 @@
     "license": "MIT",
     "dependencies": {
       "moment": "2.9.0",
-      "node-dht-sensor": "0.0.6"
+      "node-dht-sensor": "0.4.1"
     }
   }
