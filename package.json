@@ -1,17 +1,16 @@
-
 {
-    "name": "sensor-test",
-    "version": "0.0.1",
-    "description": "A balena based node project to read sensor data and log it to console",
-    "main": "index.js",
-    "scripts": {
-      "preinstall": "./deps.sh",
-      "start": "node index.js"
-    },
-    "author": "François Roseberry",
-    "license": "MIT",
-    "dependencies": {
-      "moment": "2.9.0",
-      "node-dht-sensor": "0.4.1"
-    }
+  "name": "sensor-test",
+  "version": "0.0.1",
+  "repository": "https://github.com/francois-roseberry/sensor-test",
+  "description": "A balena based node project to read sensor data and log it to console",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "./deps.sh",
+    "start": "node index.js"
+  },
+  "author": "François Roseberry",
+  "license": "MIT",
+  "dependencies": {
+    "node-dht-sensor": "0.4.1"
   }
+}
