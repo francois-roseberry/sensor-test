@@ -5,4 +5,6 @@ Just clone that repo, and push it to your balena project using BalenaCLI (assumi
 
 Borrows from [joscha/rpi-sensor-logger](https://github.com/joscha/rpi-sensor-logger)
 
-Should therotically work with a DHT11 as well, although I did not tested
+Should theoretically work with a DHT11 as well, although I did not tested
+
+As of now, doing `balena push` from a windows machine screws up some characters and fails the build. Works when pushed from mac, I assume linux works as well.
